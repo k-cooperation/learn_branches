@@ -16,7 +16,7 @@ public class Profit {
             System.out.print(B = 0.03 * (P - (P - 40)));
         } else if (P < 100){
             System.out.print(B = 0.015 * (P -(P - 60)));
-        } else if (P > 120)
+        } else if (P > 130)
             System.out.print(B = 0.01 * (P -(P - 100)));
     }
 }
