@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class test5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("请输入目标数值i");
+        System.out.print("请输入目标数值p");
         int i = input.nextInt();
-        System.out.print("请输入目标数值j");
+        System.out.print("请输入目标数值l");
         int j = input.nextInt();
 
         int gcd = 1;
