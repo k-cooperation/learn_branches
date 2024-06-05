@@ -9,6 +9,6 @@ public class plus {
         if (number1+number2 == answer)
             System.out.print("You are right");
         else
-            System.out.print("Your answer is false!"+ number1 + number2 + "should be"+ (number1+number2));
+            System.out.print("Your answer is false!"+ "number1 + number2" + " should be "  + (number1+number2));
     }
 }
