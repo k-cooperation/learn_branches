@@ -4,7 +4,7 @@ public class even {
         int n;
         for (n = 2; n <= 100;n+=1) {
             if (n % 2 == 0)
-             sum = (int) (0.5 * n * (2 + n));
+             sum +=n;
         }
         System.out.println("all the even plus from 1 to 100 is " + sum);
     }
