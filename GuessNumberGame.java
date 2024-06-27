@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class GuessNumberGame {
     public static void main(String[] args) {
-        // 创建一个随机数生成器
+
         Random rand = new Random();
-        // 生成一个 1 到 100 之间的随机数
+
         int numberToGuess = rand.nextInt(100) + 1;
         int numberOfTries = 0;
         Scanner input = new Scanner(System.in);
@@ -31,7 +31,7 @@ public class GuessNumberGame {
             }
         }
 
-        // 关闭输入流
+
         input.close();
     }
 }
